@@ -10,11 +10,7 @@ A production-ready Golang REST API using Gin, GORM, bcrypt, and JWT that support
 - 🖼️ Image/File Upload
 - 🧱 MVC Architecture
 
-<br>
-
 ---
-
-<br>
 
 ## 🛠️ Step-by-Step Installation
 
@@ -50,11 +46,7 @@ Or with hot reloading (if you installed Air):
 
     air
 
-<br>
-
 ---
-
-<br>
 
 ## 🗃️ Project Folder Structure
 
@@ -81,11 +73,7 @@ go-crud-msql/
 └── .gitignore               # Git ignore rules
 ```
 
-<br>
-
 ---
-
-<br>
 
 ## 🧩 Technology & Libraries
 
@@ -128,11 +116,7 @@ Protects APIs by verifying the token.
 
     token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
 
-<br>
-
 ---
-
-<br>
 
 ## ⚙️ Setup Commands
 
@@ -161,8 +145,8 @@ Protects APIs by verifying the token.
     # Install Air for auto reload (optional)
     go install github.com/cosmtrek/air@latest
 
-    # Run project
-    go run cmd/app/main.go
+    # export the path to Air executable to your PATH(optional if not installed globally)
+    export PATH=$PATH:/home/admin1/go/bin
 
     # OR run with Air hot reload
     air
